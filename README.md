@@ -3,6 +3,8 @@ In this project, The remaining working capability of a machine has been analysed
 
 The dataset can be downloaded from the folling kaggle link, where there are many different variables related to 100 machines associated with failures. 
 
+**Result summary** : Comparison analysis revealed that catboost model has shown the best results in terms of RUL prediction ad has also passed the robustness testing where even with 20 percent of extra added noise to the actual data, The model was able to replicate 74% of the true model performance.
+
 In the following barplot, There are multiple models acrossdifferent noise levels incorporated in the testing data for measuring for the model robustness. This test resulted in the catboost model performing the best in terms of learn the lrger extent of target distribuion where even with noise injection to the test data, the model was able to provide relaible extimation which can also be confirm use the mean absolute error scores of these models.
 ![R² Comparison](Plots_for_project1/Comparison_plot.png)
 
